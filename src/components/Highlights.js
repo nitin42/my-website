@@ -22,6 +22,15 @@ export default () => (
           <span id="date"> - 31 May, 2018</span>
         </Link>
       </li>
+      <li>
+        <a href="https://elements-of-physics.surge.sh">
+          <span>
+            Elements of Physics - An interactive physics simulation to learn
+            different elements of physics
+          </span>
+          <span id="date"> - 27 June, 2018</span>
+        </a>
+      </li>
     </ul>
   </React.Fragment>
 )
