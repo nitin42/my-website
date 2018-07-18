@@ -487,7 +487,6 @@ pre tt:after {
 ul#horizontal-list {
 	list-style: none;
 	margin-top: 20px;
-	padding: 20px 10px;
 }
 
 ul#horizontal-list li {
@@ -911,19 +910,6 @@ span#term {
 
 	.home {
 		margin-top: 50px;
-	}
-
-	ul#horizontal-list {
-		padding: 10px 10px;
-	}
-
-	ul#horizontal-list li {
-		margin-left: 16.15px;
-		padding: 20px;
-	}
-
-	ul#horizontal-list-links {
-		padding: 10px 10px;
 	}
 
 	.spring-one {
