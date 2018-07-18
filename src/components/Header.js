@@ -58,11 +58,6 @@ export default class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a href="https://medium.com/@NTulswani" target="_blank">
-                <i className="fab fa-medium-m fa-2x" />
-              </a>
-            </li>
-            <li>
               <a href="mailto:tulswani19@gmail.com?Subject=Hello" target="_top">
                 <i className="fas fa-envelope fa-2x" />
               </a>

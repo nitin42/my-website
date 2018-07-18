@@ -16,7 +16,7 @@ export default () => (
       had a great impact on my career, so I'll definitely recommend them to you.
     </p>
     <p>
-      The ones with a &nbsp;<i className="fas fa-star" /> are extraordinary !
+      The ones with a &nbsp;<i className="fas fa-star" /> are extraordinary.
     </p>
     <ul id="books">
       <li>
@@ -159,7 +159,7 @@ export default () => (
         &nbsp;<i className="fas fa-star" />
       </li>
       <li>
-        [In Progress]&nbsp;
+        &nbsp;
         <a
           href="http://worrydream.com/refs/Papert%20-%20Mindstorms%201st%20ed.pdf"
           target="_blank"

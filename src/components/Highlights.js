@@ -12,7 +12,7 @@ export default () => (
     >
       Highlights
     </h1>
-    <ul id="highlights">
+    <ul>
       <li>
         <Link to="/posts/spring">
           <span>
@@ -30,6 +30,12 @@ export default () => (
           </span>
           <span id="date"> - 27 June, 2018</span>
         </a>
+      </li>
+      <li>
+        <Link to="/posts/microworlds">
+          <span>Creating microworlds</span>
+          <span id="date"> - 17 July, 2018</span>
+        </Link>
       </li>
     </ul>
   </React.Fragment>
