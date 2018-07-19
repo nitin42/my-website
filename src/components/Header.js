@@ -42,9 +42,9 @@ export default class Header extends React.Component {
 					<img
 						id="profile"
 						src={require('../assets/picture.jpeg')}
-						style={{ borderRadius: '50px' }}
-						width="100px"
-						height="100px"
+						style={{ borderRadius: '60px' }}
+						width="120px"
+						height="120px"
 					/>
 				</div>
 				<Center direction="column">

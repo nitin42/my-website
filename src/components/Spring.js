@@ -1,5 +1,4 @@
 import React from 'react'
-
 import PropTypes from 'prop-types'
 
 import { Spring as spring } from '../spring'
@@ -21,14 +20,17 @@ const s = spring({ bounciness: 20, speed: 10 })
 const s1 = spring()
 const s3 = spring()
 const s4 = spring()
+
 const s5 = spring()
 const s6 = spring({ bounciness: 30, speed: 20 })
 const s7 = spring()
 const s8 = spring({ bounciness: 40 })
+
 const s9 = spring({ bounciness: 30 })
 const s10 = spring({ bounciness: 40, spped: 10 })
 const s11 = spring({ bounciness: 20 })
 const s12 = spring({ bounciness: 20 })
+
 const s13 = spring({ bounciness: 20 })
 
 const map = {
