@@ -1,8 +1,4 @@
 {
-	"name": "gatsby-starter-default",
-	"description": "Gatsby default starter",
-	"version": "1.0.0",
-	"author": "Kyle Mathews <mathews.kyle@gmail.com>",
 	"dependencies": {
 		"fastdom": "^1.0.8",
 		"gatsby": "^1.9.247",
@@ -16,8 +12,6 @@
 		"rebound": "^0.1.0",
 		"svg-tag-names": "^1.1.1"
 	},
-	"keywords": ["gatsby"],
-	"license": "MIT",
 	"scripts": {
 		"build": "gatsby build",
 		"develop": "gatsby develop",
