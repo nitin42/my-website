@@ -871,6 +871,14 @@ input:checked + .toggle .off {
 	display: none;
 }
 
+#project-screenshots {
+	width: 600px;
+	-webkit-box-shadow: 3px 6px 9px 0px rgba(199,197,199,1);
+  -moz-box-shadow: 3px 6px 9px 0px rgba(199,197,199,1);
+  box-shadow: 3px 6px 9px 0px rgba(199,197,199,1);
+  cursor: pointer;
+}
+
 /* Rounded toggles */
 .toggle.round {
 	border-radius: 34px;
@@ -981,5 +989,9 @@ span#term {
 		display: inline-block;
 		width: 60px;
 		height: 34px;
+	}
+
+	#project-screenshots {
+		width: 300px;
 	}
 }
