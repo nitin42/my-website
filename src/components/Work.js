@@ -5,27 +5,23 @@ import Image from './Image'
 const projects = [
   {
     title: 'Generative Design',
-    screenshot: '../assets/design.png',
     link: 'https://generative-design.surge.sh',
-    description: 'A collection of interactive generative designs created using processing and two.js'
+    description: 'A collection of interactive generative designs.'
   },
   {
     title: 'Elements of Physics',
-    screenshot: '../assets/physics.png',
     link: 'https://elements-of-physics.surge.sh',
-    description: 'An interactive simulation which describes different elements of physics like Gravity, Acceleration and Force'
+    description: 'An interactive simulation which describes different elements of physics like Gravity, Acceleration and Force.'
   },
   {
     title: 'Color Tools',
-    screenshot: '../assets/colors.png',
     link: 'https://react-color-tools.surge.sh',
-    description: 'A set of tools as React components for working with colors'
+    description: 'A set of tools as React components for working with colors.'
   },
   {
     title: 'Image Color Extractor',
-    screenshot: '../assets/extractor.png',
     link: 'https://react-color-extractor.surge.sh',
-    description: 'A tiny React component to extract an array of swatches from an image'
+    description: 'A tiny React component to extract an array of swatches from an image.'
   },
 ]
 
