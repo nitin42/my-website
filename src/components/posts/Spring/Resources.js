@@ -13,7 +13,8 @@ export const Resources = () => (
         target="_blank"
       >
         here
-      </a>.
+      </a>
+      .
     </p>
   </React.Fragment>
 )

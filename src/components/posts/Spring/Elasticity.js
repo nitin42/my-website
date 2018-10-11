@@ -49,10 +49,9 @@ export const Elasticity = (props, context) => {
           <span id="sub">
             <strong style={{ color: '#bebebe' }}>Stiffness: &nbsp;</strong>
           </span>
-          <Slider value={context.value} handler={context.handleTension} />&nbsp;{
-            context.value
-          }{' '}
-          Newtons
+          <Slider value={context.value} handler={context.handleTension} />
+          &nbsp;
+          {context.value} Newtons
         </div>
       </Center>
       <br />
@@ -70,10 +69,9 @@ export const Elasticity = (props, context) => {
           <span id="sub">
             <strong style={{ color: '#bebebe' }}>Damping: &nbsp;</strong>
           </span>
-          <Slider value={context.friction} handler={context.handleFriction} />&nbsp;{
-            context.friction
-          }{' '}
-          Newtons
+          <Slider value={context.friction} handler={context.handleFriction} />
+          &nbsp;
+          {context.friction} Newtons
         </div>
       </Center>
       <br />
@@ -94,7 +92,10 @@ export const Elasticity = (props, context) => {
           <Slider
             value={context.tension}
             handler={context.handleTensionChange}
-          />&nbsp;{context.tension} Newtons<br />
+          />
+          &nbsp;
+          {context.tension} Newtons
+          <br />
           <span id="sub" style={{ marginTop: '20px' }}>
             <strong style={{ marginLeft: '2px', color: '#bebebe' }}>
               Damping: &nbsp;
@@ -103,7 +104,9 @@ export const Elasticity = (props, context) => {
           <Slider
             value={context.frictionTwo}
             handler={context.handleFrictionChange}
-          />&nbsp;{context.frictionTwo} Newtons
+          />
+          &nbsp;
+          {context.frictionTwo} Newtons
         </div>
       </Center>
       <br />

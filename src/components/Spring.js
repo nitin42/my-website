@@ -79,20 +79,18 @@ const SpringNil = props => {
 }
 
 function invokeMess() {
-  s
-    .animate({
-      property: 'rotateX',
-      map: {
-        inputRange: [0, 1],
-        outputRange: ['0', '360deg'],
-      },
-      interpolation: (s, v, o) => {
-        this.setState({
-          skewX: o.deg(o.mapValues(v, 0, 360, 180, 360)),
-        })
-      },
-    })
-    .startAt(1)
+  s.animate({
+    property: 'rotateX',
+    map: {
+      inputRange: [0, 1],
+      outputRange: ['0', '360deg'],
+    },
+    interpolation: (s, v, o) => {
+      this.setState({
+        skewX: o.deg(o.mapValues(v, 0, 360, 180, 360)),
+      })
+    },
+  }).startAt(1)
 
   s1.animate({
     ...scaleProps,

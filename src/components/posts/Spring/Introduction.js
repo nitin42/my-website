@@ -19,9 +19,10 @@ export const Introduction = () => (
       <span>
         an object returns to its original state after the deforming force has
         been released on it
-      </span>.&nbsp; By observing the motion of the spring once the deforming
-      force has been applied on it, we can use the elasticity property to drive
-      physical animations on a screen.
+      </span>
+      .&nbsp; By observing the motion of the spring once the deforming force has
+      been applied on it, we can use the elasticity property to drive physical
+      animations on a screen.
     </p>
   </React.Fragment>
 )

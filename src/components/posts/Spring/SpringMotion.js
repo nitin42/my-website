@@ -21,7 +21,8 @@ export const SpringMotion = (props, context) => {
         <span>
           and then using the actual position value and mapping it to an
           animation range{' '}
-        </span>, we can perform animations on a screen.
+        </span>
+        , we can perform animations on a screen.
         <br />
         <br />
         Try pressing, and then releasing the square. Pressing and releasing

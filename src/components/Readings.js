@@ -16,7 +16,8 @@ export default () => (
       had a great impact on my career, so I'll definitely recommend them to you.
     </p>
     <p>
-      The ones with a &nbsp;<i className="fas fa-star" /> are extraordinary.
+      The ones with a &nbsp;
+      <i className="fas fa-star" /> are extraordinary.
     </p>
     <ul id="books">
       <li>
@@ -29,7 +30,8 @@ export default () => (
             <span id="author-name">Edward Tufte</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -41,7 +43,8 @@ export default () => (
             <span id="author-name">Alan Cooper</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -62,7 +65,8 @@ export default () => (
             <span id="author-name">Bob Nystrom</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a href="http://gameprogrammingpatterns.com/" target="_blank">
@@ -71,7 +75,8 @@ export default () => (
             <span id="author-name">Bob Nystrom</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -94,7 +99,8 @@ export default () => (
             <span id="author-name">James O. Coplien</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -106,7 +112,8 @@ export default () => (
             <span id="author-name">Addy Osmani</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a href="https://eloquentjavascript.net/" target="_blank">
@@ -134,7 +141,8 @@ export default () => (
             <span id="author-name">Bret Victor</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -146,7 +154,8 @@ export default () => (
             <span id="author-name">Frederick P. Brooks</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         [In Progress]&nbsp;
@@ -156,7 +165,8 @@ export default () => (
             <span id="author-name">Daniel Shiffman</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         &nbsp;
@@ -169,7 +179,8 @@ export default () => (
             <span id="author-name">Seymour Papert</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -181,7 +192,8 @@ export default () => (
             <span id="author-name">Daniel H. H. Ingalls</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a href="http://worrydream.com/LearnableProgramming/" target="_blank">
@@ -190,7 +202,8 @@ export default () => (
             <span id="author-name">Bret Victor</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a
@@ -202,7 +215,8 @@ export default () => (
             <span id="author-name">Kent Beck</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
       <li>
         <a href="http://worrydream.com/LadderOfAbstraction/" target="_blank">
@@ -211,7 +225,8 @@ export default () => (
             <span id="author-name">Bret Victor</span>
           </i>
         </a>
-        &nbsp;<i className="fas fa-star" />
+        &nbsp;
+        <i className="fas fa-star" />
       </li>
     </ul>
   </React.Fragment>

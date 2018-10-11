@@ -89,9 +89,9 @@ export class EquilibriumState extends React.Component {
         <blockquote id="note">
           {context.innerWidth <= 450
             ? 'Tap to increase the scale up and down units. To enable more controls, switch to a desktop or laptop.'
-            : 'Right click to decrease and left click to increase the scale up and down units.'}&nbsp;Note
-          that, increasing scale units may cause the square to take up more
-          space and create a clutter on a small screen.
+            : 'Right click to decrease and left click to increase the scale up and down units.'}
+          &nbsp;Note that, increasing scale units may cause the square to take
+          up more space and create a clutter on a small screen.
         </blockquote>
         <p>Try pressing and releasing the square.</p>
         <Center>
