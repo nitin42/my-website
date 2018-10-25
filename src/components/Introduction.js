@@ -4,8 +4,8 @@ export default () => (
   <React.Fragment>
     <h1>Hello!</h1>
     <p>
-      I'm <strong>Nitin Tulswani</strong>. I make open source tools and author
-      libraries for web. I'm focused on generative design and creating
+      I'm <strong>Nitin Tulswani</strong>. I make open source tools and
+      libraries. I'm focused on generative design and creating
       interactive documents for the web. You can follow me on Twitter{' '}
       <a href="https://twitter.com/NTulswani" id="handle" target="_blank">
         @NTulswani

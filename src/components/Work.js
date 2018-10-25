@@ -28,8 +28,9 @@ const projects = [
   {
     title: 'Shaping Functions',
     link: 'https://shaping-functions.surge.sh',
-    description: 'A visualisation of shaping functions used in algorithmic drawing.'
-  }
+    description:
+      'A visualisation of shaping functions used in algorithmic drawing.',
+  },
 ]
 
 const getImage = () => ({
@@ -37,7 +38,7 @@ const getImage = () => ({
   'Elements of Physics': require('../assets/physics.png'),
   'Color Tools': require('../assets/colors.png'),
   'Image Color Extractor': require('../assets/extractor.png'),
-  'Shaping Functions': require('../assets/shaping-functions.gif')
+  'Shaping Functions': require('../assets/shaping-functions.gif'),
 })
 
 const renderProjects = () =>
