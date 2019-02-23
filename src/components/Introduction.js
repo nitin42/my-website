@@ -4,13 +4,8 @@ export default () => (
   <React.Fragment>
     <h1>Hello!</h1>
     <p>
-      I'm <strong>Nitin Tulswani</strong>. I make open source tools and
-      libraries. I'm focused on generative design and creating interactive
-      documents for the web. You can follow me on Twitter{' '}
-      <a href="https://twitter.com/NTulswani" id="handle" target="_blank">
-        @NTulswani
-      </a>{' '}
-      where I usually post stuff about my projects.{' '}
+      I'm <strong>Nitin Tulswani</strong>. I craft tools to create interactive
+      experiences on the web. I'm focused on computational art.{' '}
     </p>
     <p>
       This blog was inspired by{' '}
@@ -19,6 +14,13 @@ export default () => (
       </a>{' '}
       work. Here, I'll write mostly about information design, front-end tools,
       creating interactive documents, and intersection of form and code.
+    </p>
+    <p>
+      You can follow me on Twitter{' '}
+      <a href="https://twitter.com/NTulswani" id="handle" target="_blank">
+        @NTulswani
+      </a>{' '}
+      where I usually post stuff about my projects.{' '}
     </p>
   </React.Fragment>
 )

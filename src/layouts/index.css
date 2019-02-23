@@ -486,7 +486,8 @@ pre tt:after {
 
 ul#horizontal-list {
 	list-style: none;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-left: 0;
 }
 
 ul#horizontal-list li {
@@ -496,9 +497,10 @@ ul#horizontal-list li {
 
 ul#horizontal-list-links {
 	list-style: none;
-	font-size: 17px;
+	font-size: 20px;
 	padding: 10px 10px;
 	background: white;
+	margin-left: 0;
 }
 
 ul#horizontal-list-links li {

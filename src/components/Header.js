@@ -75,9 +75,6 @@ export default class Header extends React.Component {
             <li>
               <Link to="/work/">Work</Link>
             </li>
-            <li>
-              <Link to="/readings/">Readings</Link>
-            </li>
           </ul>
         </Center>
       </React.Fragment>
