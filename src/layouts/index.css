@@ -518,15 +518,16 @@ ul#projects {
 	margin-left: 0;
 }
 
-ul#projects li a:hover {
+ul#projects li a {
 	border-bottom: 2px solid #4f4f4f;
 }
 
-#author:hover {
+#author {
 	border-bottom: 2px solid #4f4f4f;
 }
 
-#handle:hover {
+#handle {
+	padding-bottom: 2px;
 	border-bottom: 2px solid #4f4f4f;
 }
 
