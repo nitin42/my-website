@@ -51,7 +51,7 @@ export class EquilibriumState extends React.Component {
             style={{
               cursor: 'pointer',
               userSelect: 'none',
-              borderBottom: '1px dotted black',
+              borderBottom: '1px dotted #4f4f4f',
             }}
             onContextMenu={e => {
               e.preventDefault()
@@ -70,7 +70,7 @@ export class EquilibriumState extends React.Component {
             style={{
               cursor: 'pointer',
               userSelect: 'none',
-              borderBottom: '1px dotted black',
+              borderBottom: '1px dotted #4f4f4f',
             }}
             onContextMenu={e => {
               e.preventDefault()

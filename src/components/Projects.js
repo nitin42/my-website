@@ -38,15 +38,15 @@ export default () => (
     <h1
       style={{
         marginTop: '1.5em',
-        borderLeft: '8px solid black',
+        borderLeft: '8px solid #4f4f4f',
         paddingLeft: '10px',
       }}
     >
       Some of my projects
     </h1>
     <ul id="projects">
-      {projects.map(project => (
-        <li>
+      {projects.map((project, key) => (
+        <li key={key}>
           <a href={project.source} target="_blank">
             {project.name}
           </a>

@@ -59,7 +59,7 @@ export default () => (
     <h1
       style={{
         fontSize: '1.9em',
-        borderLeft: '8px solid black',
+        borderLeft: '8px solid #4f4f4f',
         paddingLeft: '10px',
       }}
     >

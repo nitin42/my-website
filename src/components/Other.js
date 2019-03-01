@@ -5,7 +5,7 @@ export default () => (
     <h1
       style={{
         marginTop: '1.5em',
-        borderLeft: '8px solid black',
+        borderLeft: '8px solid #4f4f4f',
         paddingLeft: '10px',
       }}
     >

@@ -519,16 +519,17 @@ ul#projects {
 }
 
 ul#projects li a {
-	border-bottom: 2px solid #4f4f4f;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #4f4f4f;
 }
 
 #author {
-	border-bottom: 2px solid #4f4f4f;
+	border-bottom: 3px solid #4f4f4f;
 }
 
 #handle {
 	padding-bottom: 2px;
-	border-bottom: 2px solid #4f4f4f;
+	border-bottom: 3px solid #4f4f4f;
 }
 
 #date {
@@ -554,43 +555,9 @@ ul#highlights li:not(:first-child) {
 	margin-top: 20px;
 }
 
-ul#highlights-quotes {
-	text-align: justify;
-	margin-left: 50;
-	margin-top: 40px;
-}
-
-ul#highlights-quotes li {
-	font-size: 1em;
-	margin-bottom: 0;
-	color: #717171;
-	font-style: italic;
-	font-weight: 200;
-}
-
 strong {
 	color: #4f4f4f;
 	font-weight: 400;
-}
-
-ul#highlights-quotes li:not(:first-child) {
-	margin-top: 20px;
-}
-
-ul#books {
-	text-align: justify;
-	text-align-last: inherit;
-	margin-left: 50;
-	margin-top: 40px;
-}
-
-ul#books li {
-	font-size: 1em;
-	margin-bottom: 0;
-}
-
-ul#books li:not(:first-child) {
-	margin-top: 20px;
 }
 
 a {
@@ -650,11 +617,12 @@ a {
 	width: 80%;
 	text-align: center;
 	animation: show 1s;
+	z-index: 2;
 }
 
 .post-title {
 	font-size: 1.8em;
-	border-left: 8px solid black;
+	border-left: 8px solid #4f4f4f;
 	padding-left: 10px;
 }
 
