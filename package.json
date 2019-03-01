@@ -16,7 +16,7 @@
 		"build": "gatsby build",
 		"develop": "gatsby develop",
 		"format": "prettier --write 'src/**/*.js'",
-		"deploy": "yarn format && yarn build && surge public/ --domain https://nitin-tulswani.surge.sh"
+		"deploy": "yarn format && yarn build && surge"
 	},
 	"devDependencies": {
 		"invariant": "^2.2.4",
