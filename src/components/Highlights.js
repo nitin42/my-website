@@ -20,24 +20,28 @@ const highlights = [
     date: ' - 17 July, 2018',
     link: '/posts/microworlds',
   },
+  {
+    title: 'Crafting tools',
+    date: ' - 9 March, 2019',
+    link: '/posts/tools',
+  },
 ]
 
 export default () => (
   <React.Fragment>
     <h1
       style={{
-        fontSize: '1.8em',
         borderLeft: '8px solid #4f4f4f',
         paddingLeft: '10px',
       }}
     >
       Highlights
     </h1>
-    <ul>
-      {highlights.map(highlight => {
+    <ul id="highlights">
+      {highlights.map((highlight, index) => {
         if (highlight.useLink) {
           return (
-            <li>
+            <li key={index}>
               <a href={highlight.link} target="_blank">
                 <span>{highlight.title}</span>
                 <span id="date">{highlight.date}</span>
@@ -46,7 +50,7 @@ export default () => (
           )
         } else {
           return (
-            <li>
+            <li key={index}>
               <Link to={highlight.link}>
                 <span>{highlight.title}</span>
                 <span id="date">{highlight.date}</span>

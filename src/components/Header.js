@@ -3,17 +3,20 @@ import Link from 'gatsby-link'
 
 import { Center } from './posts/Center'
 
-import { WindowSubscriptionsContext, WindowSubscriptionsProvider } from './WindowSubscription'
+import {
+  WindowSubscriptionsContext,
+  WindowSubscriptionsProvider,
+} from './WindowSubscription'
 
-const noop = h => { }
+const noop = h => {}
 
 export default class Header extends React.Component {
-  subscribed = false;
-  unsubscribe = noop;
+  subscribed = false
+  unsubscribe = noop
 
   componentWillUnmount() {
     if (this.unsubscribe) {
-      this.unsubscribe(this.handler);
+      this.unsubscribe(this.handler)
     }
   }
 
@@ -52,9 +55,9 @@ export default class Header extends React.Component {
         <WindowSubscriptionsContext.Consumer>
           {value => {
             if (this.subscribed === false) {
-              value.subscribe(this.handler);
-              this.unsubscribe = value.unsubscribe;
-              this.subscribed = true;
+              value.subscribe(this.handler)
+              this.unsubscribe = value.unsubscribe
+              this.subscribed = true
             }
 
             return (
@@ -81,7 +84,10 @@ export default class Header extends React.Component {
                       </a>
                     </li>
                     <li>
-                      <a href="mailto:tulswani19@gmail.com?Subject=Hello" target="_top">
+                      <a
+                        href="mailto:tulswani19@gmail.com?Subject=Hello"
+                        target="_top"
+                      >
                         <i className="fas fa-envelope fa-2x" />
                       </a>
                     </li>
@@ -102,7 +108,6 @@ export default class Header extends React.Component {
             )
           }}
         </WindowSubscriptionsContext.Consumer>
-
       </WindowSubscriptionsProvider>
     )
   }

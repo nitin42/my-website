@@ -8,11 +8,11 @@ import Header from './Header'
 import { WindowSubscriptionsProvider } from './WindowSubscription'
 
 export default () => (
-    <div className="home">
-      <div className="introduction">
-        <Introduction />
-        <Projects />
-        <Other />
-      </div>
+  <div className="home">
+    <div className="introduction">
+      <Introduction />
+      <Projects />
+      <Other />
     </div>
+  </div>
 )
