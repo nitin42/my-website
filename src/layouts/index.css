@@ -5,8 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
+  font-family: 'SF Pro Text', sans-serif;
   margin: 0;
 }
 article,
