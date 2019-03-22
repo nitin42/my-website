@@ -43,6 +43,9 @@ export default function Header(props) {
           <li>
             <Link to="/work/">Work</Link>
           </li>
+          <li>
+            <Link to="/sketches">Sketches</Link>
+          </li>
         </ul>
       </Center>
     </React.Fragment>

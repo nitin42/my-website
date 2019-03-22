@@ -6,11 +6,11 @@ import Other from './Other'
 import Header from './Header'
 
 export default () => (
-	<div className="home">
-		<div className="introduction">
-			<Introduction />
-			<Projects />
-			<Other />
-		</div>
-	</div>
+  <div className="home">
+    <div className="introduction">
+      <Introduction />
+      <Projects />
+      <Other />
+    </div>
+  </div>
 )
