@@ -873,15 +873,11 @@ span#term {
 }
 
 .artworks {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
-  margin-top: 50px;
-}
-
-.artworks canvas,
-svg {
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -1,15 +1,11 @@
 import React from 'react'
 
-import Leaves from './sketches/Leaves'
-import Circles from './sketches/Circles'
-import Squares from './sketches/Squares'
-import Shapes from './sketches/Shapes'
-import Waves from './sketches/Waves'
-import MixedShapes from './sketches/Shader-Shapes'
-import SimpleNoiseShader from './sketches/Shader-Simplex-Noise'
-import NoiseGainShader from './sketches/Shader-Noise-Gain'
-import SimpleNoiseShaderTwo from './sketches/Shader-Noise-Simplex-Two'
-import PolarShapes from './sketches/Shader-Polar-Shapes'
+const Codepen = ({ children, title }) => (
+  <div>
+    <h1>{title}</h1>
+    {children}
+  </div>
+)
 
 const Artworks = props => (
   <React.Fragment>
@@ -22,21 +18,120 @@ const Artworks = props => (
       Artworks
     </h1>
     <div className="artworks">
-      <Leaves height={500} width={500} id="leaves" />
-      <Circles height={500} width={500} id="circle" />
-      <Squares height={500} width={500} id="squares" />
-      <Shapes height={500} width={500} id="shapes" />
-      <Waves height={500} width={500} id="waves" />
-      <MixedShapes height={500} width={500} id="shader-shapes" />
-      <SimpleNoiseShader height={500} width={500} id="noise-simplex" />
-      <NoiseGainShader id="noise-gain" maxField height={500} width={500} />
-      <NoiseGainShader
-        id="noise-gain-without-maxfield"
-        height={500}
-        width={500}
-      />
-      <SimpleNoiseShaderTwo id="noise-simplex-two" height={500} width={500} />
-      <PolarShapes id="polar-shapes" height={500} width={500} />
+      <Codepen title="Leaves">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Leaves"
+          src="//codepen.io/Nitin_42/embed/preview/ywjvzJ/?height=653&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/ywjvzJ/">Leaves</a>{' '}
+        </iframe>
+      </Codepen>
+      <Codepen title="Simplex Noise">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Simplex-Noise-Variant-Two"
+          src="//codepen.io/Nitin_42/embed/EMLQOo/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/EMLQOo/">
+            Simplex-Noise-Variant-Two
+          </a>
+        </iframe>
+      </Codepen>
+      <Codepen title="Molecules">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Simplex-Noise"
+          src="//codepen.io/Nitin_42/embed/vPjdzb/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/vPjdzb/">Simplex-Noise</a>
+        </iframe>
+      </Codepen>
+      <Codepen title="Noise Gain">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Noise-Gain"
+          src="//codepen.io/Nitin_42/embed/bZMLMG/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/bZMLMG/">Noise-Gain</a>
+        </iframe>
+      </Codepen>
+      <Codepen title="Waves">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Waves"
+          src="//codepen.io/Nitin_42/embed/KERQZV/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/KERQZV/">Waves</a>
+        </iframe>
+      </Codepen>
+      <Codepen title="Squares">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Squares"
+          src="//codepen.io/Nitin_42/embed/xBjYrX/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/xBjYrX/">Squares</a>
+        </iframe>
+      </Codepen>
+      <Codepen title="Circles">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Circles"
+          src="//codepen.io/Nitin_42/embed/oVdoRX/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/oVdoRX/">Circles</a>
+        </iframe>
+      </Codepen>
+      <Codepen title="Shapes">
+        <iframe
+          height="600px"
+          width="600px"
+          scrolling="no"
+          title="Shapes"
+          src="//codepen.io/Nitin_42/embed/ywjvva/?height=265&theme-id=light&default-tab=result"
+          frameborder="no"
+          allowtransparency="true"
+          allowfullscreen="true"
+        >
+          <a href="https://codepen.io/Nitin_42/pen/ywjvva/">Shapes</a>
+        </iframe>
+      </Codepen>
     </div>
   </React.Fragment>
 )

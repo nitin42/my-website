@@ -23,6 +23,7 @@ export default ({ children }) => (
         href="https://fonts.googleapis.com/css?family=Roboto:300"
         rel="stylesheet"
       />
+      <script async src="https://static.codepen.io/assets/embed/ei.js" />
     </Helmet>
     <div className="header">
       <Header />
