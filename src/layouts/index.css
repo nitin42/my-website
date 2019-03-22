@@ -872,6 +872,18 @@ span#term {
   font-weight: bold;
 }
 
+.artworks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 50px;
+}
+
+.artworks canvas,
+svg {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 1024px) {
   h1 {
     text-align: start;
@@ -964,5 +976,9 @@ span#term {
 
   #project-screenshots {
     width: 350px;
+  }
+
+  .artworks {
+    grid-template-columns: 1fr;
   }
 }
