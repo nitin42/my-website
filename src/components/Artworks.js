@@ -17,7 +17,7 @@ const Codepen = ({ title, src, href }) => (
 )
 
 const Artworks = props => (
-  <React.Fragment>
+  <div>
     <h1
       style={{
         borderLeft: '8px solid #4f4f4f',
@@ -29,7 +29,7 @@ const Artworks = props => (
     <div className="artworks">
       <Codepen
         title="Leaves"
-        src="//codepen.io/Nitin_42/embed/preview/ywjvzJ/?height=653&theme-id=light&default-tab=result"
+        src="//codepen.io/Nitin_42/embed/ywjvzJ/?height=653&theme-id=light&default-tab=result"
         href="https://codepen.io/Nitin_42/pen/ywjvzJ/"
       />
       <Codepen
@@ -69,7 +69,7 @@ const Artworks = props => (
         src="//codepen.io/Nitin_42/embed/ywjvva/?height=265&theme-id=light&default-tab=result"
       />
     </div>
-  </React.Fragment>
+  </div>
 )
 
 export default Artworks
