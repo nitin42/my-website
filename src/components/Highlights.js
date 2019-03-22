@@ -20,11 +20,6 @@ const highlights = [
     date: ' - 17 July, 2018',
     link: '/posts/microworlds',
   },
-  {
-    title: 'Crafting tools',
-    date: ' - 9 March, 2019',
-    link: '/posts/tools',
-  },
 ]
 
 export default () => (
