@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Codepen = ({ title, src, href }) => (
+const Codepen = ({ title, src, href, description }) => (
   <div>
     <h1>{title}</h1>
+    {description && description()}
     <div>
       <iframe
         scrolling="no"
@@ -38,22 +39,23 @@ const Artworks = props => (
         title="Simplex Noise"
         src="//codepen.io/Nitin_42/embed/preview/EMLQOo/?height=265&theme-id=light&default-tab=result"
         href="https://codepen.io/Nitin_42/pen/EMLQOo/"
-      />
-      <Codepen
-        title="Molecules"
-        src="//codepen.io/Nitin_42/embed/preview/vPjdzb/?height=265&theme-id=light&default-tab=result"
-        href="https://codepen.io/Nitin_42/pen/vPjdzb/"
-      />
-      <Codepen
-        title="Noise Gain"
-        href="https://codepen.io/Nitin_42/pen/bZMLMG/"
-        title="Noise-Gain"
-        src="//codepen.io/Nitin_42/embed/preview/bZMLMG/?height=265&theme-id=light&default-tab=result"
+        description={() => (
+          <p>
+            Inspired by{' '}
+            <a
+              href="https://thebookofshaders.com/11/"
+              aria-label="Link to book of shaders"
+            >
+              The Book of Shaders
+            </a>
+          </p>
+        )}
       />
       <Codepen
         title="Waves"
         href="https://codepen.io/Nitin_42/pen/KERQZV/"
         src="//codepen.io/Nitin_42/embed/preview/KERQZV/?height=265&theme-id=light&default-tab=result"
+        description={() => <p>Generate wave like pattern with images</p>}
       />
       <Codepen
         title="Squares"
