@@ -872,7 +872,25 @@ span#term {
   font-weight: bold;
 }
 
+.artworks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+iframe {
+  height: 600px;
+  width: 600px;
+}
+
 @media only screen and (max-width: 1024px) {
+  iframe {
+    height: 300px;
+    width: 300px;
+  }
+
   h1 {
     text-align: start;
   }
@@ -924,6 +942,10 @@ span#term {
     float: right;
   }
 
+  ul#horizontal-list-links li {
+    padding: 15px;
+  }
+
   input[type='range'] {
     width: 25%;
   }
@@ -964,5 +986,9 @@ span#term {
 
   #project-screenshots {
     width: 350px;
+  }
+
+  .artworks {
+    grid-template-columns: 1fr;
   }
 }

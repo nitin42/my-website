@@ -7,9 +7,12 @@
     "html-tags": "^2.0.0",
     "prop-types": "^15.6.1",
     "raf": "^3.4.1",
+    "randomcolor": "^0.5.4",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-generative-tools": "^1.0.2",
     "react-helmet": "^5.2.0",
+    "react-shader-canvas": "^1.0.0",
     "rebound": "^0.1.0",
     "svg-tag-names": "^1.1.1"
   },
