@@ -44,12 +44,12 @@ const getImage = () => ({
 const renderProjects = () =>
   projects.map(project => {
     return (
-      <div key={project.title}>
+      <div key={project.title} style={{ marginTop: 30 }}>
         <h2>{project.title}</h2>
+        <p>{project.description}</p>
         <a href={project.link}>
           <Image src={getImage()[project.title]} alt={project.title} />
         </a>
-        <p>{project.description}</p>
       </div>
     )
   })
@@ -63,8 +63,8 @@ export default () => (
         paddingLeft: '10px',
       }}
     >
-      Work
+      Stuff
     </h1>
-    <div style={{ marginTop: 30 }}>{renderProjects()}</div>
+    <div style={{ marginTop: 50 }}>{renderProjects()}</div>
   </React.Fragment>
 )

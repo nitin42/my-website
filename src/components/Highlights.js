@@ -38,7 +38,7 @@ export default () => (
           return (
             <li key={index}>
               <a href={highlight.link} target="_blank">
-                <span>{highlight.title}</span>
+                <span id="highlight-title">{highlight.title}</span>
                 <span id="date">{highlight.date}</span>
               </a>
             </li>
@@ -47,7 +47,7 @@ export default () => (
           return (
             <li key={index}>
               <Link to={highlight.link}>
-                <span>{highlight.title}</span>
+                <span id="highlight-title">{highlight.title}</span>
                 <span id="date">{highlight.date}</span>
               </Link>
             </li>
